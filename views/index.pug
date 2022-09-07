@@ -1,0 +1,59 @@
+doctype html 
+html 
+    head    
+        title Dance Academy 
+        style 
+            include ../static/style.css
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Mochiy+Pop+One&family=Montserrat:wght@100&family=Sacramento&family=Secular+One&family=Uchen&display=swap" rel="stylesheet">
+    
+        body 
+            nav#navbar 
+                ul
+                    div#logo
+                        img(src="../static/3.png")
+                        div.compney
+                           |  HDA                    
+                    li #[a(href="/") Home]
+                    li #[a(href="/") About]
+                    li #[a(href="/") Services] 
+                    li #[a(href="/") Class Info]
+                    li #[a(href="/") Contact ]
+            section#intoSection 
+                div.intro 
+                        | Welcome to Dance Academy 
+                div.small        Eat Sleep Dance Repeat    
+            section#missionSection 
+                h2 Our Mission  
+                div.card
+                 h3 Dance Perfection
+                  div.card-box
+                    div.card-img
+                            img(src="../static/card 2.jpg")
+                            div.content
+                                    | This is the best academy in the Universe                
+                div.card
+                 h3 Dance the way you like 
+                  div.card-box
+                    div.card-img
+                            img(src="../static/card 1.jpg")
+                            div.content
+                                    | This is the best academy in the Universe
+                div.card
+                 h3 Expert Teaching 
+                  div.card-box
+                    div.card-img
+                            img(src="../statiC/card 1.jpg")
+                            div.content
+                                    | This is the best academy in the Universe
+            section#sponsorSection
+                h2 Our Sponser   
+                div#sponser
+                    img(src="../static/logo1.png",Class="spimage")
+                    img(src="../static/logo2.png",Class="spimage")
+                    img(src="../static/logo3.png",Class="spimage")
+                    img(src="../static/logo4.png",Class="spimage")
+                
+            footer#footer 
+                | Copy Right with Sabit 
+        script 
+    include ../static/index.js 

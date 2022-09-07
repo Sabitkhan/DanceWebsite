@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 34px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    border: 2px solid black;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 6%;
+}
+
+.container {
+    min-height: 83vh;
+margin: 34px;
+}
+@media (max-width:998px ){
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    
+    
+    }    
+}
+
+    
